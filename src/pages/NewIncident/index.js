@@ -28,7 +28,7 @@ export default function NewIncident() {
                 headers: {
                     Authorization: ongId
                 }
-            });
+            }); a
 
             history.push('/profile');
         } catch (err) {
